@@ -3,7 +3,7 @@ import logging
 
 class BasicBot:
     def __init__(self, api_key, api_secret, testnet=True):
-        # ✅ Proper testnet connection
+        
         if testnet:
             self.client = Client(api_key, api_secret, testnet=True)
         else:
